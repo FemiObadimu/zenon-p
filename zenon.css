@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+     font-family: Nunito; 
+}
+
+.nav-link{
+    color: white !important;
+    padding: 0px 10px !important;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.fa-bars{
+    color: white !important;
+}
+
+
+.wideee{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.carousel-item{
+    height: 100vh;
+    background-size: cover;
+}
+
+.carousel-caption{
+    bottom: 270px;
+}
+
+.carousel-caption h5{
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.dremo2{
+    width: 75%;
+    margin: auto;
+}
+
+nav{
+    background: #000 !important;
+    color: white !important;
+}
+
+.navbar-light .navbar-brand{
+    color: aqua !important;
+     font-family: Fruktur; 
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+@media(max-width:767px){
+    .nav-link{
+        color: white !important;
+        padding: 20px 10px !important;
+        font-size: 20px;
+    }
+}
+
+
+
+

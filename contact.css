@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+     font-family: Nunito; 
+}
+
+.nav-link{
+    color: white !important;
+    padding: 0px 10px !important;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.fa-bars{
+    color: white !important;
+}
+
+nav{
+    background: #000 !important;
+    color: white !important;
+}
+
+.navbar-light .navbar-brand{
+    color: aqua !important;
+     font-family: Fruktur; 
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
+
+.tnt{
+    padding: 100px 0px 50px 0px;
+    text-align: center;
+    color: #000;
+     font-family: Fruktur; 
+     font-size: 40px;
+     animation: slideup 3s ease;
+    
+}
+
+.tnt1{
+    color: aqua;
+}
+
+@keyframes slideup{
+    0%{
+        transform: translateY(100px);
+
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+.enter{
+    padding:5px 10px;
+    width: 200px;
+}
+
+#error{
+    padding: 20px;
+    font-size: 20px;
+    color: red;
+}
+
+.btn1{
+    padding: 40px 0px;
+}
+
+button{
+    padding: 5px 10px;
+    border: none;
+    font-size: 20px;
+    background-color: aqua;
+    letter-spacing: 2px;
+}
+
+
+button:focus{
+    font-size: 25px;
+}
+
+
+
+.footer{
+    padding: 20px 60px !important;
+    background: #000;
+    color: white;
+}
+
+.text3{
+    padding: 10px 0px;
+    font-size: 25px;
+}
+
+.makeem{
+    color: aqua;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white !important;
+    text-decoration: none !important;
+
+}
+
+a:hover{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.fa-map-marker,.fa-phone,.fa-envelope{
+    padding:0px 20px;
+    color: aqua;
+}
+
+
+h6{
+    font-size: 30px !important;
+}
+
+.fa-facebook,.fa-instagram,.fa-twitter{
+    padding: 30px;
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:767px){
+    .nav-link{
+        color: white !important;
+        padding: 20px 10px !important;
+        font-size: 20px;
+    }
+}
+
